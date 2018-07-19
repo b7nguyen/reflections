@@ -1,2 +1,19 @@
-What happens when you initialize a repository? Why do you need to do it?
+What happens when you initialize a repository? Why do you need to do it?  Initializing a repository creates the initial files for Git to create a repository but will not commit. Needs a first time commit by user. 
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+    Only add the file that you have made the logical change to. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+    Branches help when you want to add or remove features from the code without affecting the master head yet. Gives 
+    you time to make a decision, then merge it into the head at a later time. Collaborating, adding features, context 
+    switching.       
+
+How do the diagrams help you visualize the branch structure?
+
+    The diagrams gives you a visualize of how the branches are connnected to eachother. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+    
+    Merging to branches will merge the changes from one branch to the other. 
